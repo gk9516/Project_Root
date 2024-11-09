@@ -1,5 +1,5 @@
 export async function sendDataToBackend(data) {
-    const response = await fetch('http://localhost:5000/bfhl', {
+    const response = await fetch('https://projectroot-production.up.railway.app/bfhl', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data),
