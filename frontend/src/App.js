@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { sendDataToBackend } from './api';
+import './styles.css';
 
 function App() {
     const [input, setInput] = useState('');
